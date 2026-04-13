@@ -34,7 +34,7 @@ Full‑stack recipe sharing platform for chefs and food lovers.
 ## Environment Variables (Backend)
 
 Create `backend/.env`:
-DB_URL=mongodb+srv://utshav:%40utshav10@cluster0.a6acmwm.mongodb.net/recipenest?retryWrites=true&w=majority
+MONGO_URI=your_new_connection_string
 PORT=8080
 NODE_ENV=development
 CLIENT_URL=http://localhost:5173
