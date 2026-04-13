@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom text gradients */
+.text-gradient-orange {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Subtle pattern for hero section */
+.bg-hero-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgba(249,115,22,0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
